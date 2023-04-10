@@ -18,6 +18,11 @@ nav {
   align-items: center;
 }
 
+.shortcut-text {
+  color: #ABB0B9FF;
+  padding-top: 5px;
+}
+
 .navbar-left-side > p {
   color: #9DA3AEFF;
 }
