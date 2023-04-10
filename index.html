@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Header goes here -->
+  <header>
+    <nav>
+      <div class="navbar-left-side">
+        <img class="rightdouble-icon" src="./assets/ss.png" alt="">
+        <div class="book-div">
+          <img class="book-png" src="./assets/book.png" alt="">
+          <p>Main</p>
+        </div>
+        <p>/</p>
+        <p>Getting started</p>
+        <p>/</p>
+        <p>Front-end developer test proje...</p>
+      </div>
+      <div class="navbar-right-side">
+        <div class="edit-unlock-icon">
+          <img class="unlock-icon" src="./assets/unlock.png" alt="">
+          <p>Editing</p>
+        </div>
+        <div class="publish-div">
+          <p class="publish-text">Publish Space</p>
+          <img class="expand-icon" src="./assets/expand.png" alt="">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header ends here -->
+
+  <main>
+
+    <!-- Container which shows mostly icons -->
+    <div class="actions-container">
+      <div>
+        <p>P</p>
+        <div class="clock-container">
+          <img src="./assets/clock.png" alt="clock icon">
+          <p>0min</p>
+        </div>
+        <img class="rabbit-img" src="./assets/rabbit.png" alt="rabbit avatar">
+        <div class="leftdown-icon-container">
+          <img class="leftdown-icon" src="./assets/leftdown.png" alt="leftdown icon">
+          <p>0</p>
+        </div>
+      </div>
+      <div>
+        <img src="./assets/tick.png" alt="tick icon">
+        <img src="./assets/cloud.png" alt="cloud icon">
+        <img src="./assets/edit.png" alt="edit icon">
+      </div>
+    </div>
+    <!-- Icons container ends here  -->
+
+    <h1 class="intro-text">Front-end developer test project</h1>
+
+    <p class="explanation-paragraph">Your goal is to make a page that looks exactly like this one, and has the ability to create H1 text simply by typing / then 1, then typing text, and hitting enter.</p>
+  
+    <textarea placeholder="Type / for blocks, @ to link docs or people"></textarea>
+
+    <!-- Context menu here hidden -->
+
+    <div class="contextMenu">
+      <div class="contextMenu-header">
+        <h4>Add blocks</h4>
+        <p class="filter-description">Keep typing to filter, or escape to exit</p>
+        <p class="filtered-keyword">Filtering keyword</p>
+      </div>
+        <div class="contextMenu-option header-option">
+        <p>T</p>
+        <div>
+          <h4>Heading 1</h4>
+          <p>Shortcut: type # + space</p>
+        </div>
+      </div>
+      <div class="contextMenu-option">
+        <p>T</p>
+        <div>
+          <h4>Expandable Heading 1</h4>
+          <p>Shortcut: type >># + space</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-icon-div">
+      <img src="./assets/help.png" alt="">
+    </div>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>

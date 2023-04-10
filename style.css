@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  display: none;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+}
+
+.navbar-left-side {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-left-side > p {
+  color: #9DA3AEFF;
+}
+
+.navbar-right-side {
+  display: flex;
+  align-items: flex-end;
+}
+
+.unlock-icon {
+  transform: rotateY(190deg);
+}
+
+.edit-unlock-icon {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  color: #9DA3AEFF;
+  padding: 4px 1rem 4px 0;
+}
+
+.publish-text {
+  padding: 4px 0 4px 1rem;
+  border-left: 2px solid #E5E7EBFF;
+}
+
+.publish-div {
+  display: flex;
+  gap: 0.5rem;
+  color: #3565A9FF;
+  font-weight: bold;
+}
+
+.book-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #9DA3AEFF;
+}
+
+.book-div > p {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.book-png {
+  scale: 0.7;
+}
+
+.rightdouble-icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+main {
+  padding: 0.7rem 6% 0 6%;
+  min-height: calc(100vh - 125px);
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-container {
+  padding: 0.5rem;
+  display: none;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 5px;
+  color: #9DA3AEFF;
+}
+
+.actions-container > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.actions-container > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.actions-container > div:first-child > p:first-child {
+  background-color: #D9F9E6FF;
+  color: #347659FF;
+  font-weight: bold;
+  padding: 0.6rem;
+  margin-right: 0.7rem;
+  border-radius: 4px;
+}
+
+.leftdown-icon-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  gap: 0.5rem;
+}
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  border-left: 2px solid #D2D5DAFF;
+  padding: 0 0.7rem;
+}
+
+.clock-container > p {
+  padding-top: 2px;
+}
+
+.clock-container > img {
+  scale: 0.9;
+}
+
+.rabbit-img {
+  width: 25px;
+  height: 25px;
+  padding: 0 0.7rem;
+  border-left: 2px solid #D2D5DAFF;
+  border-right: 2px solid #D2D5DAFF;
+}
+
+.intro-text {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #E5E7EBFF;
+  color: #0D121CFF;
+  font-weight: 700;
+}
+
+.toHeader {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.trash-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.header-text-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.header-text-container > h1 {
+  flex: 1;
+}
+
+.header-text-container > img:hover {
+  cursor: pointer;
+}
+
+.toHeader::placeholder {
+  font-size: 24px;
+}
+
+.explanation-paragraph {
+  color: #4D5562FF;
+  padding-top: 1rem;
+  line-height: 25px;
+  padding-bottom: 4rem;
+}
+
+textarea {
+  width: 100%;
+  flex: 1;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: #9DA3AEFF;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem 10px 0;
+}
+
+.footer-icon-div {
+  padding: 0.5rem;
+  background-color: #F3F4F6FF;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 10px;
+}
+
+.contextMenu {
+  display: none;
+  flex-direction: column;
+  margin-top: -7px;
+  bottom: 5px;
+  width: 310px;
+  height: 44vh;
+  border: 1px solid #E5E7EBFF;
+  border-radius: 4px;
+  padding: 1rem 0;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.moveUp {
+  transform: translateY(1px);
+}
+
+.contextMenu-option {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header-option {
+  background-color: #F3F4F6FF;
+  margin-top: 0.6rem;
+}
+
+.filter-description {
+  color: #A8AEB8FF;
+  padding-top: 0.4rem;
+}
+
+.filtered-keyword {
+  color: #777D89FF;
+  padding-top: 1.3rem;
+}
+
+.contextMenu-header {
+  padding-left: 0.8rem;
+}
+
+@media only screen and (min-width: 390px) {
+  .actions-container {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  nav {
+    display: flex;
+  }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  main {
+    padding: 0.7rem 25% 0 25%;
+  }
+}
